@@ -20,7 +20,7 @@
             border-radius: 8px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
-        h1, h2 {
+        h1, h2, h3 {
             color: #444;
             border-bottom: 2px solid #ddd;
             padding-bottom: 10px;
@@ -34,6 +34,13 @@
         h2 {
             font-size: 1.8em;
             margin-top: 40px;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+        }
+        p {
+            margin: 20px 0;
         }
         table {
             width: 100%;
@@ -64,14 +71,14 @@
             border-radius: 4px;
             text-align: right;
         }
-        .note, .portfolio {
+        .note, .portfolio, .jamstack-explanation, .wordpress-note, .maintenance-support, .price-table-link {
             background-color: #f9f9f9;
             border-left: 4px solid #ddd;
             padding: 20px;
             margin-top: 30px;
             border-radius: 4px;
         }
-        .portfolio {
+        .portfolio, .price-table-link {
             background-color: #f0f4f8;
             border-left-color: #b0bec5;
         }
@@ -82,12 +89,25 @@
         a:hover {
             text-decoration: underline;
         }
+        small {
+            color: #777;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Next.js/ヘッドレスCMS HP制作料金表（参考）</h1>
-        
+
+        <div class="jamstack-explanation">
+            <h2>Jamstackとは？</h2>
+            <p>Jamstackは、最新のウェブサイト構築手法で、高速でセキュアなウェブサイトを実現します。Next.jsとヘッドレスCMSを活用し、動的なコンテンツ管理と高速な表示速度を両立します。サーバーへの負荷を軽減し、拡張性と柔軟性に優れたサイトを構築できます。</p>
+        </div>
+
+        <div class="wordpress-note">
+            <h2>WordPressでの制作について</h2>
+            <p>現在、基本的にWordPressでのHP制作はお受けしておりません。もし、WordPressでの制作をご希望の場合は、他社様へのご依頼をご検討いただければ幸いです。</p>
+        </div>
+
         <h2>デザイナーを含めないプラン</h2>
         <table>
             <tr>
@@ -112,7 +132,7 @@
             </tr>
         </table>
         <p class="total">総額: ¥300,000〜（税抜）</p>
-        <p>月額運用費用: ¥10,000（基本保守・運用サポート、軽微な修正、サーバー・ドメイン管理）</p>
+        <p>月額運用費用: ¥10,000（基本保守・運用サポート、軽微な修正、サーバー・ドメイン管理の技術サポート）</p>
 
         <div class="portfolio">
             <h3>制作例（デザイナーを含まない場合）</h3>
@@ -149,7 +169,7 @@
                 <td>¥100,000</td>
             </tr>
             <tr>
-                <td>基本的なSEO対策<br><small>Metaタグ設定、OGP設定など</small></td>
+                <td>SEO対策<br><small>高度な最適化</small></td>
                 <td>¥50,000</td>
             </tr>
         </table>
@@ -165,6 +185,11 @@
             </ul>
         </div>
 
+        <div class="maintenance-support">
+            <h2>保守・運用サポートについて</h2>
+            <p>フルスクラッチでの制作の場合、クライアント様側で保守できるエンジニアがいない場合もあるかと存じます。その点につきましては、保守・運用サポートも含めてご検討ください。</p>
+        </div>
+
         <div class="note">
             <h3>備考</h3>
             <ul>
@@ -175,6 +200,12 @@
                 <li>運用保守につきましては、お客様ご自身で対応可能な場合は、月額費用を省略することができます。</li>
                 <li>デザイナーを含めるプランでは、プロのデザイナーが高度なデザインを提供いたします。より洗練されたビジュアルを求める場合におすすめです。</li>
             </ul>
+        </div>
+
+        <div class="price-table-link">
+            <h2>料金表・制作例</h2>
+            <p>デザイナーをプロジェクトメンバーに含めた場合と含めない場合の参考料金表と制作例のリンクを以下にご用意いたしましたので、ご確認いただけますと幸いです。</p>
+            <p><a href="https://yutabee.github.io/next_hp/price_table.html" target="_blank">料金表・制作例はこちら</a></p>
         </div>
     </div>
 </body>
