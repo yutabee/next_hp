@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next.js/ヘッドレスCMS HP制作料金表</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            font-weight: 300;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+            color: #555;
+        }
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+        .total {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #444;
+            margin-top: 20px;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: right;
+        }
+        .note, .portfolio {
+            background-color: #f9f9f9;
+            border-left: 4px solid #ddd;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 4px;
+        }
+        .portfolio {
+            background-color: #f0f4f8;
+            border-left-color: #b0bec5;
+        }
+        a {
+            color: #546e7a;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Next.js/ヘッドレスCMS HP制作料金表</h1>
+        
+        <h2>デザイナーを含める場合</h2>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>費用</th>
+                <th>詳細</th>
+            </tr>
+            <tr>
+                <td>プロジェクト管理</td>
+                <td>¥50,000</td>
+                <td>プロジェクト全体の進行管理、打ち合わせ、スケジュール管理</td>
+            </tr>
+            <tr>
+                <td>Next.jsコーディング</td>
+                <td>¥250,000</td>
+                <td>トップページと下層ページ（5〜8ページ）のコーディング</td>
+            </tr>
+            <tr>
+                <td>コンタクトフォーム</td>
+                <td>¥50,000</td>
+                <td>お問い合わせを受け付け、管理できる機能</td>
+            </tr>
+            <tr>
+                <td>ブログ機能</td>
+                <td>¥100,000</td>
+                <td>Newt（ヘッドレスCMS）を利用した記事投稿、管理、表示機能</td>
+            </tr>
+            <tr>
+                <td>SEO対策</td>
+                <td>¥50,000</td>
+                <td>基本的なMetaタグ設定、OGP設定、サイトマップ生成</td>
+            </tr>
+            <tr>
+                <td>ヒアリング・要件定義・設計</td>
+                <td>¥100,000</td>
+                <td>要望のヒアリング、詳細な要件の定義、サイト構成およびページ設計の策定</td>
+            </tr>
+            <tr>
+                <td>デザイン制作</td>
+                <td>¥250,000</td>
+                <td>ページデザイン（5〜8ページ）、グラフィック要素制作</td>
+            </tr>
+        </table>
+        <p class="total">総額: ¥850,000（税抜）</p>
+        <p>月額運用費用: ¥10,000（保守・運用サポート、軽微な修正、サーバー・ドメイン管理）</p>
+
+        <div class="portfolio">
+            <h3>制作例（デザイナーを含む場合）</h3>
+            <p>田丸がディレクション担当、プロジェクトにデザイナーが入った場合の例：</p>
+            <ul>
+                <li><a href="https://preview.studio.site/live/4BqNevvJOr/" target="_blank">24Medical様</a></li>
+                <li><a href="https://molth.jp/" target="_blank">株式会社Molth様</a></li>
+            </ul>
+        </div>
+
+        <h2>デザイナーを含めない場合</h2>
+        <table>
+            <tr>
+                <th>項目</th>
+                <th>費用</th>
+                <th>詳細</th>
+            </tr>
+            <tr>
+                <td>Next.js基本構築</td>
+                <td>¥250,000</td>
+                <td>トップページと下層ページ（5〜8ページ）の構築</td>
+            </tr>
+            <tr>
+                <td>コンタクトフォーム</td>
+                <td>¥50,000</td>
+                <td>お問い合わせを受け付け、管理できる機能</td>
+            </tr>
+            <tr>
+                <td>ブログ機能</td>
+                <td>¥100,000</td>
+                <td>Newt（ヘッドレスCMS）を利用した基本的な記事投稿、管理、表示機能</td>
+            </tr>
+            <tr>
+                <td>基本的なSEO対策</td>
+                <td>¥50,000</td>
+                <td>基本的なMetaタグ設定、サイトマップ生成</td>
+            </tr>
+        </table>
+        <p class="total">総額: ¥450,000（税抜）</p>
+        <p>月額運用費用: ¥10,000（基本保守・運用サポート、軽微な修正、サーバー・ドメイン管理の技術サポート）</p>
+
+        <div class="portfolio">
+            <h3>制作例（デザイナーを含まない場合）</h3>
+            <p>田丸が構成、デザイン、設計、開発まで担当した場合の例：</p>
+            <ul>
+                <li><a href="https://syncbloom.jp/" target="_blank">株式会社SyncBloom</a></li>
+            </ul>
+        </div>
+
+        <div class="note">
+            <h3>備考</h3>
+            <ul>
+                <li>デザイナーを含めないプランでは、田丸がUIデザインと設計を担当いたします。シンプルで機能的なデザインを提供しますが、複雑なアニメーションや高度にカスタマイズされたデザイン要素については対応が限られる場合がございます。</li>
+                <li>両ケースともNewt（ヘッドレスCMS）を使用し、無料プラン（10モデルまで）を利用します。データ量増加時は有料プランへの移行が必要です。</li>
+                <li>両ケースともVercel（ホスティングサービス）を使用し、無料プランを利用します。トラフィック増加時は有料プランへの移行が必要です。</li>
+                <li>大幅な機能追加や新規ページ作成は別途お見積りとなります。</li>
+                <li>運用保守につきましては、お客様ご自身で対応可能な場合は、月額費用を省略することができます。</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
